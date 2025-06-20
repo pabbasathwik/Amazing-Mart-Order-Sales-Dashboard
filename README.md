@@ -1,105 +1,95 @@
-# 🛍️ Amazing Mart Sales Insights Dashboard (2011–2014)
+# 🛍️ Amazing Mart Sales Insights Dashboard
 
 ## 📊 Project Overview
 
-This project provides an interactive Tableau dashboard that visualizes sales and order trends from **Amazing Mart** between **January 2011 and November 2013**. It highlights patterns in order volume, customer segments, delivery efficiency, and regional performance.
+This project analyzes **Amazing Mart's** order data from **January 2011 to November 2013** using **Tableau**. The dashboard provides clear, interactive visualizations to understand order trends, shipping preferences, delivery times, and regional performance.
 
 ---
 
 ## 🧩 Problem Statement
 
-To explore the Amazing Mart order dataset and deliver a dynamic dashboard that helps business users answer:
-- How are monthly and quarterly orders trending?
-- Which customer segments prefer specific shipping modes?
-- What is the average delivery time by country?
-- How are regions and states performing geographically?
+To explore and analyze Amazing Mart's customer order data and uncover trends across time, geography, and customer segments. The aim is to generate business insights that support better operational decisions and enhance delivery performance.
 
 ---
 
-## 📁 Dataset Overview
+## 📁 Dataset Description
 
-- **Order ID** – Unique identifier per order  
+- **Order ID** – Unique order reference  
 - **Order Date** – Date order was placed  
 - **Ship Date** – Date order was shipped  
-- **Customer Name** – Customer's full name  
-- **City / State / Country / Region** – Location hierarchy  
-- **Segment** – Type of customer (Consumer, Corporate, Home Office)  
-- **Ship Mode** – Shipping method used  
-- **Calculated Field:** `Delivery Time = Ship Date - Order Date`
+- **Customer Name** – Customer’s name  
+- **Segment** – Customer segment (Consumer, Corporate, Home Office)  
+- **Country / State / City / Region** – Geographic details of customer  
+- **Ship Mode** – Shipping method (Economy, Priority, etc.)  
+- **Calculated Field**:  
+  - `Delivery Time = Ship Date - Order Date`
 
 ---
 
-## 📈 Dashboard Insights
+## 🛠️ Steps Followed
 
-### 🔹 Monthly Order Trend
-- Line chart from Jan 2011 to Nov 2013 shows fluctuations in orders.
-- Highest: **127 orders** in July 2012  
-- Lowest: **35 orders** in Jan 2011  
-
-### 🔹 Quarterly Order Distribution
-- **Q3** had the highest orders: **1,279**  
-- **Q1** had the lowest: **725**  
-
-### 🔹 Orders by Ship Mode and Segment
-- **Economy** mode is dominant across all segments.
-- **Consumers** use shipping modes more frequently than other segments.
-
-### 🔹 Average Delivery Time by Country
-- A map showing the average number of days between order and ship date (1 decimal precision).
-- Countries color-coded by delivery efficiency.
-
-### 🔹 Regional Coverage
-- Map displays the number of **states** per region using a filled color-coded map.
-- Regions include **North, South, Central** with visual differentiation.
+- ✅ **Data Import & Cleaning** – Loaded the dataset in Tableau and cleaned formats  
+- ⏱ **Calculated Field** – Created `Delivery Time` column  
+- 📍 **Geographic Hierarchy** – Built Country → State → Region → City  
+- 📈 **Trend Analysis** – Monthly and quarterly order trends visualized  
+- 🗺 **Filled Maps** – For region-wise state count and delivery time by country  
+- 📊 **Bar Charts & Pie Charts** – Used for shipping segment comparison and quarterly order analysis
 
 ---
 
-## 🛠 Tools & Techniques Used
+## 📸 Dashboard Preview
 
-- **Tableau** – For dashboard creation and interactivity  
-- **Calculated Fields** – For Delivery Time  
-- **Geographic Roles** – For mapping Country, Region, State  
-- **Line, Bar, Pie, Map Visuals** – For different business KPIs
+![Amazing Mart Dashboard]()
 
 ---
 
-## 🧠 Skills Demonstrated
+## 💡 Key Insights
 
-- Data cleaning & transformation  
-- Visual storytelling with Tableau  
-- Calculated columns  
-- Hierarchical geographic role setup  
-- Dashboard design and interactivity
-
----
-
-## 🙋‍♂ About Me
-
-I'm **Sathwik Pabba**, a Data Analyst with hands-on experience in **Python, SQL, Power BI, Tableau, Excel, and Data Visualization**. I love creating compelling dashboards that drive business decisions.
-
-📧 [sathwikpabba18@gmail.com](mailto:sathwikpabba18@gmail.com)  
-🔗 [GitHub Profile](https://github.com/pabbasathwik)  
-📍 Hyderabad, India  
+- 📅 **Monthly Orders**: Peaked at **127** in July 2012, lowest at **35** in Jan 2011  
+- 📆 **Quarterly Trends**:  
+  - **Q3** has the highest order volume (**1,279 orders**)  
+  - **Q1** has the least (**725 orders**)  
+- 🚚 **Shipping Preference**:  
+  - **Economy** is the most used shipping mode  
+  - **Consumers** dominate all shipping modes
+- 🌍 **Geographic Insights**:  
+  - Maps show delivery time varies by country  
+  - Regional map highlights the number of states per region  
+- ⏱ **Average Delivery Time**: Calculated and formatted to 1 decimal precision
 
 ---
 
-## 📂 Repository Contents
+## ✅ Recommendations
 
-- `Amazing Mart Order Dashboard.twbx` – Tableau dashboard file  
-- `Amazing Mart Order.dataset.xlsx` – Source dataset  
-- `Amazing Mart Order Dashboard.png` – Dashboard preview image  
-- `README.md` – Project documentation (you’re here!)
+1. **Optimize Shipping**  
+   - Focus on standardizing delivery times in high-delay regions  
+2. **Segment-Based Promotions**  
+   - Target *Corporate* and *Home Office* segments with incentives  
+3. **Quarterly Strategy Planning**  
+   - Leverage Q3 for new product launches and marketing pushes  
 
 ---
 
-## ⭐ Like This Project?
+## 📁 Files Included
 
-If you found this useful, please ⭐ star the repository and explore other dashboards and analytics projects!
+- `Amazing Mart Order Dashboard.twbx` – Tableau Dashboard  
+- `Amazing Mart Orders.dataset.xlsx` – Cleaned dataset  
+- `Amazing Mart Order Dashboard.png` – Dashboard image  
 
-> “Data beats emotions.” – Sean Rad 📈
+---
 
+## 🙋‍♂️ About Me
+
+I'm **Sathwik Pabba**, a Data Analyst with strong skills in **Tableau**, **Power BI**, **SQL**, **Python**, **Pandas**, **NumPy**, **MongoDB**, and **Excel**. I enjoy working with real-world datasets to build dashboards and derive actionable insights.
+
+🔗 [GitHub Profile](https://github.com/pabbasathwik)
+
+---
 
 ## 📣 Connect with Me
+
+- 💼 [LinkedIn](https://linkedin.com/in/sathwikpabba)  
+- 📧 Email: [sathwikpabba18@gmail.com](mailto:sathwikpabba18@gmail.com)
 
 If you found this project helpful, ⭐ star the repo and explore my other dashboards and analysis projects on GitHub!
 
