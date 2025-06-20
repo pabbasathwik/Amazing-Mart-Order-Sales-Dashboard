@@ -39,7 +39,7 @@ To explore and analyze Amazing Mart's customer order data and uncover trends acr
 
 ## 📸 Dashboard Preview
 
-![Amazing Mart Dashboard]()
+![Amazing Mart Dashboard](https://github.com/pabbasathwik/Amazing-Mart-Order-Sales-Dashboard/blob/main/Amazing%20Mart%20Order%20Dashboard.png)
 
 ---
 
