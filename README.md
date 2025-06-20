@@ -70,8 +70,8 @@ To explore and analyze Amazing Mart's order data by creating an insightful and i
 
 I'm **Sathwik Pabba**, a passionate Data Analyst skilled in **Python, SQL, Power BI, Tableau, Excel, and Data Storytelling**. I love turning raw data into compelling stories and dashboards that make an impact.
 
-📧 Email: [sathwikpabba2@gmail.com](mailto:sathwikpabba18@gmail.com)  
-🔗 GitHub: [github.com/SathwikPabba](https://github.com/pabbasathwik)  
+📧 Email: [sathwikpabba18@gmail.com](mailto:sathwikpabba18@gmail.com)  
+🔗 GitHub: [github.com/pabbasathwik](https://github.com/pabbasathwik)  
 📍 Location: Hyderabad, India  
 
 ---
