@@ -85,9 +85,9 @@ I'm **Sathwik Pabba**, a Data Analyst with hands-on experience in **Python, SQL,
 
 ## 📂 Repository Contents
 
-- `Amazing Mart Sales Insights Dashboard.twbx` – Tableau dashboard file  
-- `Amazing Mart Sales Dataset.csv` – Source dataset  
-- `Amazing Mart Sales Insights Dashboard.png` – Dashboard preview image  
+- `Amazing Mart Order Dashboard.twbx` – Tableau dashboard file  
+- `Amazing Mart Order.dataset.xlsx` – Source dataset  
+- `Amazing Mart Order Dashboard.png` – Dashboard preview image  
 - `README.md` – Project documentation (you’re here!)
 
 ---
